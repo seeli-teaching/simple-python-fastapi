@@ -6,4 +6,7 @@ pip install -r requirements.txt
 
 
 #### Befehl zum Start der API
-uvicorn main:app
+uvicorn main:app --host 0.0.0.0 --port 8000
+
+
+#### Verwende test.http um die API zu testen
